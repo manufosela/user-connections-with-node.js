@@ -79,35 +79,3 @@ io.sockets.on('connection', function ( socket ) {
   }
 
 });
-
-
-
-
-/*
-
-BROADCAST MESSAGE
-
-io.sockets.emit('bla bla');
-socket.broadcast.emit('user connected');
-socket.broadcast.json.send({ a: 'message' });
-
-
-ROOMS
-
-socket.join('justin bieber fans');
-socket.broadcast.to('justin bieber fans').emit('new fan');
-io.sockets.in('rammstein fans').emit('new non-fan');
-
-
-socket.leave('justin bieber fans');
-
-io.sockets.in(socket.room).leave(socket.room);
-
-EN CLIENTE
-io.connect('http://localhost', {
-  'reconnect': true,
-  'reconnection delay': 500,
-  'max reconnection attempts': 10
-});
-
-*/
