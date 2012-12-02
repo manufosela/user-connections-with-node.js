@@ -7,14 +7,22 @@
     [2012-11-29]
 */
 
-/*
-** Servidor web para html
+/**
+* Servidor web para ficheros html
+*
+* Web server to html files
 */
 var connect = require('connect');
 connect.createServer(
     connect.static(__dirname)
 ).listen(8080);
 
+
+/**
+* Servidor de chat usando websockets
+*
+* Chat server using websockets
+*/
 var io = require('socket.io').listen(9080),
     aUserList = [];
 
