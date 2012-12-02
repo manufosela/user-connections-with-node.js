@@ -7,6 +7,14 @@
     [2012-11-29]
 */
 
+/*
+** Servidor web para html
+*/
+var connect = require('connect');
+connect.createServer(
+    connect.static(__dirname)
+).listen(8080);
+
 var io = require('socket.io').listen(9080),
     aUserList = [];
 
