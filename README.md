@@ -10,6 +10,7 @@ Requerimientos
 
 node.js (en ejemplo uso v0.8.4)
 socket.io (npm install socket.io -g)
+connect (npm install connect -g)
 
 Ficheros
 ========
@@ -42,6 +43,28 @@ js/lib/less.js
 --------------
 Librería javascript para generar css dinámicamente
 
+Como hacerlo funcionar
+======================
+
+Entrar en la ruta donde tengamos el código:
+
+$> cd /ruta/al/codigo
+
+Arrancar desde linea de comandos el servidor server.js con node:
+
+$> node server.js
+
+Abrir un navegador y escribir:
+
+http://localhost:8080/client.html
+
+Se abrirá un prompt solicitando un nick de usuario.
+
+Abrir en otro navegador/pestaña la misma url
+
+Probar a enviar mensajes y ver como se envian y reciben.
+En la consola se verán los mensajes de log dejados por el servidor.
+En la consola de debug del navegador se verán los mensajes de log del cliente.
 
 
 ************************************************
@@ -58,6 +81,7 @@ Requeriments
 ============
 node.js (the example use v0.8.4)
 socket.io (npm install socket.io -g)
+connect (npm install connect -g)
 
 Files
 =====
@@ -90,3 +114,27 @@ JavaScript library that detects HTML5 and CSS3 features in the user’s browser
 js/lib/less.js
 --------------
 Javascript library to generate dinamic css.
+
+Making it work
+======================
+
+Go to the code path:
+
+$> cd /path/to/the/code
+
+Boot the server file server.js from the command line with node:
+
+$> node server.js
+
+Open browser and write the url:
+
+http://localhost:8080/client.html
+
+It opens a prompt to Se abrirá un prompt requesting a user nick.
+
+Open other browser / tab and type the same url
+
+Test to send and receive message and look how it will be sent and received
+
+Into the console it will watch the log message it written by the server.
+Into the debug's browser console you would see the log message it written by the client.
