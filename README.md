@@ -1,14 +1,14 @@
 (English version after spanish version)
 
-Conexión de usuarios con node.js usando websockets
+Conexión de usuarios con hml5 websockets y node.js
 ==================================================
 
-Ejemplo de un simple chat multiusuario usando node.js y la libreria socket.io
+Ejemplo de un simple chat multiusuario usando HTML5 websockets en el lado cliente y node.js y la libreria socket.io en el lado servidor
 
 Requerimientos
 ==============
 
-node.js (en ejemplo uso v0.8.4)
+node.js (en el ejemplo se usa la versión v0.8.4)
 socket.io (npm install socket.io -g)
 connect (npm install connect -g)
 
@@ -72,10 +72,10 @@ En la consola de debug del navegador se verán los mensajes de log del cliente.
 
 
 
-User connections with node.js using websockets
-==============================================
+User connections with HTML5 websockets and node.js
+==================================================
 
-It is a simple broadcast chat multiuser to connect and send messages using node.js and socket.io library
+It is a simple broadcast chat multiuser to connect and send messages using HTML5 websockets in frontend side and node.js with socket.io library in backend side
 
 Requeriments
 ============
